@@ -27,7 +27,7 @@ export const Layout = ({ children }) => {
           <Sidebar onClick={() => setSidebar(false)} />
         )}
         {(!sidebar || contentAlwaysVisible) && (
-          <div className="p-4 text-gray-700">{children}</div>
+          <div className="p-4 font-sans text-gray-700">{children}</div>
         )}
       </div>
       <div className=" w-full py-3 bg-secondary-200 text-xs">

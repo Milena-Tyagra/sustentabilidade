@@ -35,8 +35,8 @@ const icon_classes ="w-8 h-8 md:w-4 md:h-4 shrink-0 text-primary-200"
 
   return (
     <div className="flex flex-col gap-3 font-sans ">
-      <p className="font-sans">{messages.PROBLEM}</p>
-      <p className="font-sans">{messages.SOLUTION}</p>
+      <p>{messages.PROBLEM}</p>
+      <p>{messages.SOLUTION}</p>
 
       <b className="text-center text-primary-200">{messages.PRODUCTS_EXAMPLES}</b>
 
@@ -60,7 +60,7 @@ const icon_classes ="w-8 h-8 md:w-4 md:h-4 shrink-0 text-primary-200"
         ))}
       </div>
 
-      <p className="font-sans">{messages.CALL_TO_ACTION_HOME_MESSAGE}</p>
+      <p>{messages.CALL_TO_ACTION_HOME_MESSAGE}</p>
 
     </div>
   );
