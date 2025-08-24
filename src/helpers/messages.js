@@ -29,4 +29,34 @@ export const messages = {
     CALL_TO_ACTION_HOME_MESSAGE: `A fibra da bananeira representa muito mais do que reaproveitamento: ela é ciência, inovação e transformação social.
     Apoie essa iniciativa e ajude a espalhar a sustentabilidade pelo campo.
     ` ,
+
+    // art
+    ART_OPENING_TEXT: ` O reaproveitamento do pseudocaule da bananeira permitiu transformar um resíduo agrícola em peças criativas, funcionais e ecológicas. Cada produto carrega ciência,
+        tradição e inovação, valorizando os saberes populares e incentivando o protagonismo estudantil.`,
+    CREATED_PRODUCTS: 'Produtos Criados',
+    ART_TITLE_1: 'Papel artesanal',
+    ART_PRODUCT_1: 'Produzido a partir da trituração da fibra, com resistência e textura diferenciada.',
+    ART_TITLE_2: 'Tijolos ecológicos',
+    ART_PRODUCT_2: 'Fibras integradas à massa, compactados manualmente e secos naturalmente.',
+    ART_TITLE_3: 'Esponjas biodegradáveis',
+    ART_PRODUCT_3: 'Alternativa ecológica ao plástico, feitas a partir das fibras.',
+    ART_TITLE_4: 'Cordas e fios trançados',
+    ART_PRODUCT_4: 'Resistentes, rústicos e sustentáveis.',
+    ART_TITLE_5: 'Peças decorativas e utilitárias',
+    ART_PRODUCT_5: 'Tags, embalagens, acessórios e objetos criativos.',
+    ART_TITLE_6: 'Conserva do palmito da bananeira',
+    ART_PRODUCT_6: 'Aproveitamento alimentar sustentável.',
+    ART_TITLE_7: 'Xarope natural',
+    ART_PRODUCT_7: 'Preparado com o coração da bananeira, destacando o uso integral da planta.',
+
+    ART_PROCESS: 'O Processo Artesanal',
+    ART_STEP_1: 'Extração do pseudocaule nas propriedades locais;',
+    ART_STEP_2: 'Separação manual das fibras;',
+    ART_STEP_3: 'Secagem natural ao sol e à sombra;',
+    ART_STEP_4: 'Tratamento com água e imersão;',
+    ART_STEP_5: 'Transformação em produtos artesanais',
+
+    CALL_TO_ACTION_ART_MESSAGE: `A fibra da bananeira representa muito mais do que reaproveitamento: ela é ciência, inovação e transformação social.
+    Apoie essa iniciativa e ajude a espalhar a sustentabilidade pelo campo.`
+
 };
