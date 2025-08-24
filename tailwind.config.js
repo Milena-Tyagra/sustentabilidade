@@ -13,12 +13,12 @@ export default {
         },
         secondary: {
           100: "#F3E9DB",
-          200: '#e6d0b3'
+          200: '#e6d0b3',
+          300: "#C7A473", // Papel kraft
         },
         gray: {
           700: '#2D2D2D'
         },
-        // "#C7A473",  // Papel kraft
         white: "#ffffff",
         black: "#1C1C1C"
       },
