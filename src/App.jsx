@@ -1,40 +1,29 @@
-import { useState, useEffect } from "react";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom"
 import { Layout } from "./components/layout/Layout";
-// import { LandingPage } from "./screens/LandingPage"
-// import {
-//   listUnits,
-//   listPlans
-// } from "./service/apis"
+import { Home } from "./screens/home/Home";
+import { Art } from "./screens/art/Art";
+import { Recepies } from "./screens/recepies/Recepies";
 
 function App() {
-  // const [loading, setLoading] = useState(false)
-  // const [plans, setPlans] = useState()
-  // const [units, setUnits] = useState()
-
-  // const loadData = async () => {
-  //   setLoading(true)
-  //   try {
-  //     const { rows: unitsData } = await listUnits()
-  //     const { rows: plansData} = await listPlans()
-  //     setPlans(plansData)
-  //     setUnits(unitsData)
-  //   } catch (err) {
-  //     console.log(err)
-  //   } finally {
-  //     setLoading(false)
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   loadData()
-  // }, [])
-
   return (
-    <Layout>
-      <h1 className="font-sans text-primary-100">SUSTENTABILIDADE</h1>
-      <p className="font-script text-primary-200">fibra de bananeira</p>
-      <div className="bg-background p-4">Conteúdo</div>
-    </Layout>
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route
+              index
+              element={
+                <Home />
+              }
+            />
+            <Route path="art" element={<Art />} />
+            <Route path="recepies" element={<Recepies />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
   );
 }
 
