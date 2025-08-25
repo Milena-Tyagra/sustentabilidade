@@ -15,3 +15,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 8px;  /* largura da barra vertical */
+}
+
+::-webkit-scrollbar-track {
+  background: #F3E9DB; /* secondary-100 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4A5F3F; /* primary-200 */
+  border-radius: 8px;
+  border: 2px solid #F3E9DB; /* cria espaço ao redor */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4A5F3F #F3E9DB;
+}

@@ -52,7 +52,7 @@ export const Layout = ({ children }) => {
           <Sidebar onClick={() => setSidebar(false)} mobile={mobile_mode} height={height}/>
         )}
         {(!sidebar || contentAlwaysVisible) && (
-          <div className={`p-4 md:px-12 font-sans text-gray-700 h-[${height}px] overflow-auto`}>{children}</div>
+          <div className={`p-4 md:px-12 font-sans text-gray-700  overflow-auto `} style={mobile_mode ? null : {height}}>{children}</div>
         )}
       </div>
       <div className=" w-full py-3 bg-secondary-200 text-xs" id="footer">
