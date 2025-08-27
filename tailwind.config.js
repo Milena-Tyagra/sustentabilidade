@@ -15,6 +15,7 @@ export default {
           100: "#F3E9DB",
           200: '#e6d0b3',
           300: "#C7A473", // Papel kraft
+          400: "#ecdbc6"
         },
         gray: {
           700: '#2D2D2D'
