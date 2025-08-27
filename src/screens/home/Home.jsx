@@ -5,17 +5,9 @@ import {
     CurrencyCircleDollar 
 } from "@phosphor-icons/react";
 import { messages } from "../../helpers/messages";
+import { products_examples } from "../../helpers/mocks";
 
 export const Home = () => {
-    const products_examples = [
-        messages.PRODUCT_1,
-        messages.PRODUCT_2,
-        messages.PRODUCT_3,
-        messages.PRODUCT_4,
-        messages.PRODUCT_5,
-        messages.PRODUCT_6,
-        messages.PRODUCT_7,
-    ];
     
 const icon_classes ="w-8 h-8 md:w-4 md:h-4 shrink-0 text-primary-200"
   const impacts = [
