@@ -6,7 +6,7 @@ import {
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./screens/home/Home";
 import { Art } from "./screens/art/Art";
-import { Recepies } from "./screens/recepies/Recepies";
+// import { Recepies } from "./screens/recepies/Recepies";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
               }
             />
             <Route path="art" element={<Art />} />
-            <Route path="recepies" element={<Recepies />} />
+            {/* <Route path="recepies" element={<Recepies />} /> */}
           </Routes>
         </Layout>
       </BrowserRouter>
