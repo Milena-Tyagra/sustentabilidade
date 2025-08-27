@@ -3,13 +3,17 @@ import {
   Routes,
   Route
 } from "react-router-dom"
+
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./screens/home/Home";
 import { Art } from "./screens/art/Art";
+
+import { ContextProvider } from "./context/ContextProvider";
 // import { Recepies } from "./screens/recepies/Recepies";
 
 function App() {
   return (
+    <ContextProvider>
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -24,6 +28,7 @@ function App() {
           </Routes>
         </Layout>
       </BrowserRouter>
+    </ContextProvider>
   );
 }
 
