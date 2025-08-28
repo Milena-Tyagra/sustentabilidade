@@ -9,7 +9,7 @@ import { Home } from "./screens/home/Home";
 import { Art } from "./screens/art/Art";
 
 import { ContextProvider } from "./context/ContextProvider";
-// import { Recepies } from "./screens/recepies/Recepies";
+import { Recepies } from "./screens/recepies/Recepies";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
               }
             />
             <Route path="art" element={<Art />} />
-            {/* <Route path="recepies" element={<Recepies />} /> */}
+            <Route path="recepy" element={<Recepies />} />
           </Routes>
         </Layout>
       </BrowserRouter>
