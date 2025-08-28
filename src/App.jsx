@@ -14,7 +14,7 @@ import { Recepies } from "./screens/recepies/Recepies";
 function App() {
   return (
     <ContextProvider>
-      <BrowserRouter>
+      <BrowserRouter  basename="/sustentabilidade">
         <Layout>
           <Routes>
             <Route
