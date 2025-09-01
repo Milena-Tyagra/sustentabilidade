@@ -24,11 +24,11 @@ export const arts = [
         description: messages.ART_PRODUCT_2,
         image: tijolo,
     },
-    {
-        title: messages.ART_TITLE_3,
-        description: messages.ART_PRODUCT_3,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    },
+    // {
+    //     title: messages.ART_TITLE_3,
+    //     description: messages.ART_PRODUCT_3,
+    //     image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+    // },
     {
         title: messages.ART_TITLE_4,
         description: messages.ART_PRODUCT_4,
