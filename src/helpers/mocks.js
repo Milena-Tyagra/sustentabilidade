@@ -7,6 +7,12 @@ import decoracoes from '../assets/decoracoes.jpeg'
 import conserva from '../assets/conserva.jpeg'
 import xarope from '../assets/xarope.jpeg'
 
+import extracao from '../assets/extracao.jpeg'
+import separacao from '../assets/separacao.jpeg'
+import secagem from '../assets/secagem.jpeg'
+import imercao from '../assets/imercao.jpeg'
+
+
 export const arts = [
     {
         title: messages.ART_TITLE_1,
@@ -48,23 +54,23 @@ export const arts = [
 export const artSteps = [
     {
         description: messages.ART_STEP_1,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        image: extracao,
     },
     {
         description: messages.ART_STEP_2,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        image: separacao,
     },
     {
         description: messages.ART_STEP_3,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        image: secagem,
     },
     {
         description: messages.ART_STEP_4,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        image: imercao,
     },
     {
         description: messages.ART_STEP_5,
-        image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+        image: decoracoes,
     },
 ]
 
