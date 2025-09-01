@@ -1,10 +1,11 @@
 import { useContext, useEffect, useState } from "react";
+import { Carousel } from "antd";
 
 import { ArtCard } from "./components/ArtCard";
-import { messages } from "../../helpers/messages";
-import { arts, artSteps } from "../../helpers/mocks";
 import { Context } from "../../context/Context";
-import { Carousel } from "antd";
+import { displayMessage } from "../../components/messages/Message";
+
+import { arts, artSteps } from "../../helpers/mocks";
 
 export const Art = () => {
   const { mobile_mode } = useContext(Context)
@@ -30,9 +31,9 @@ export const Art = () => {
   }, [])
   return (
     <div className="flex flex-col gap-5">
-      <p>{messages.ART_OPENING_TEXT}</p>
+      <p>{displayMessage("ART_OPENING_TEXT")}</p>
       <b className="text-center text-primary-200">
-        {messages.CREATED_PRODUCTS}
+        {displayMessage("CREATED_PRODUCTS")}
       </b>
 
       <Carousel arrows={true} infinite>
@@ -51,7 +52,7 @@ export const Art = () => {
         }
       </Carousel>
       <b className="text-center text-primary-200">
-        {messages.ART_PROCESS}
+        {displayMessage("ART_PROCESS")}
       </b>
       <Carousel arrows={true} infinite>
         {
@@ -67,7 +68,7 @@ export const Art = () => {
         }
       </Carousel>
 
-      <p>{messages.CALL_TO_ACTION_ART_MESSAGE}</p>
+      <p>{displayMessage("CALL_TO_ACTION_ART_MESSAGE")}</p>
     </div>
   );
 };
