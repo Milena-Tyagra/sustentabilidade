@@ -13,7 +13,7 @@ export const messages = {
   Aqui você vai conhecer experiências, produtos e histórias que mostram como a criatividade e a ciência podem transformar resíduos agrícolas em oportunidades reais para a comunidade.
   `,
   HOME_CALL_TO_ACTION_MESSAGE: `Explore nossas fotos, vídeos, receitas e entrevistas e descubra como a fibra de bananeira inspira um futuro mais verde e inovador.`,
-  
+
   // art
   ART_OPENING_TEXT: ` O reaproveitamento do pseudocaule da bananeira permitiu transformar um resíduo agrícola em peças criativas, funcionais e ecológicas. Cada produto carrega ciência,
         tradição e inovação, valorizando os saberes populares e incentivando o protagonismo estudantil.`,
@@ -43,12 +43,14 @@ export const messages = {
   CALL_TO_ACTION_ART_MESSAGE: `A fibra da bananeira representa muito mais do que reaproveitamento: ela é ciência, inovação e transformação social.
     Apoie essa iniciativa e ajude a espalhar a sustentabilidade pelo campo.`,
 
+  //recepies
+
   MATERIALS: "Materiais necessários:",
   ART_PRODUCT_2_MATERIAL_1: "Fibra de bananeira seca e picada (bem fina ou moída)",
-  ART_PRODUCT_2_MATERIAL_2: "Solo argiloso (terra com boa liga)",
-  ART_PRODUCT_2_MATERIAL_3: "Areia (fina)",
+  ART_PRODUCT_2_MATERIAL_2: "Solo argiloso (terra com boa liga – você pode testar com solo da sua região)",
+  ART_PRODUCT_2_MATERIAL_3: "Areia (fina – dependendo do solo)",
   ART_PRODUCT_2_MATERIAL_4: "Água",
-  ART_PRODUCT_2_MATERIAL_5: "Forma de tijolo (pode ser de madeira ou tipo forma de tijolo ecológico)",
+  ART_PRODUCT_2_MATERIAL_5: "Forma de tijolo (pode ser de madeira ou comprada pronta, tipo forma de tijolo ecológico)",
   ART_PRODUCT_2_MATERIAL_6: "Pá e balde",
   ART_PRODUCT_2_MATERIAL_7: "Luvas (para proteger as mãos)",
 
@@ -56,22 +58,24 @@ export const messages = {
 
   ART_PRODUCT_2_STEP_1_TITLE: "Preparar a fibra",
   ART_PRODUCT_2_STEP_1_1: "Seque bem a fibra da bananeira ao sol",
-  ART_PRODUCT_2_STEP_1_2: "Triture ou pique bem fino, como se fosse palha. Quanto mais seca e fina, melhor a mistura.",
+  ART_PRODUCT_2_STEP_1_2: "Triture ou pique bem fino (como se fosse palha picada).",
   ART_PRODUCT_2_STEP_1_3: "Quanto mais seca e fina, melhor a mistura.",
 
   ART_PRODUCT_2_STEP_2_TITLE: "Misturar os ingredientes secos",
-  ART_PRODUCT_2_STEP_2_1: "Em uma bacia ou no chão limpo, misture a terra, a areia e a fibra picada até ficar homogêneo.",
+  ART_PRODUCT_2_STEP_2_1: "Em uma bacia ou no chão limpo, misture a terra, a areia e a fibra picada.",
+  ART_PRODUCT_2_STEP_2_2: "Misture bem até ficar uniforme.",
   ART_PRODUCT_2_STEP_3_TITLE: "Adicionar a água",
-  ART_PRODUCT_2_STEP_3_1: "Vá adicionando água aos poucos e mexa até a mistura ficar com consistência de farofa úmida.",
-  ART_PRODUCT_2_STEP_3_2: "A massa deve modelar bem sem esfarelar.",
+  ART_PRODUCT_2_STEP_3_1: "Vá adicionando água aos poucos.",
+  ART_PRODUCT_2_STEP_3_2: "Mexa com a pá ou as mãos até a massa ficar com consistência de farofa úmida, que modele sem esfarelar nem escorrer.",
   ART_PRODUCT_2_STEP_4_TITLE: "Moldar os tijolos",
-  ART_PRODUCT_2_STEP_4_1: "Preencha a forma com a massa, pressionando bem para evitar bolhas de ar.",
-  ART_PRODUCT_2_STEP_4_2: "Alise a superfície e retire com cuidado após alguns minutos.",
+  ART_PRODUCT_2_STEP_4_1: "Preencha a forma com a massa, pressionando bem para não deixar bolhas de ar.",
+  ART_PRODUCT_2_STEP_4_2: "Alise a superfície.",
+  ART_PRODUCT_2_STEP_4_3: " Retire da forma com cuidado após alguns minutos.",
   ART_PRODUCT_2_STEP_5_TITLE: "Secagem",
-  ART_PRODUCT_2_STEP_5_1: "Deixe os tijolos secando à sombra por 48 a 72 horas em local ventilado e coberto.",
-  ART_PRODUCT_2_STEP_5_2: "Depois, exponha ao sol por 7 a 14 dias, virando-os de vez em quando.",
+  ART_PRODUCT_2_STEP_5_1: "Deixe os tijolos secando à sombra por 48 a 72 horas (em local ventilado e coberto).",
+  ART_PRODUCT_2_STEP_5_2: "Depois, deixe ao sol por mais 7 a 14 dias, virando-os de vez em quando.",
 
-  ART_PRODUCT_2_IMPORTANT_NOTE: "Não use os tijolos antes da cura completa para garantir sua resistência.",
+  ART_PRODUCT_2_IMPORTANT_NOTE: "Não use os tijolos antes da cura completa! Isso garante resistência.",
 
   ART_PRODUCT_1_MATERIAL_1: "Fibra de bananeira (pode ser do pseudocaule ou folhas fibrosas)",
   ART_PRODUCT_1_MATERIAL_2: "Água quente",
@@ -106,4 +110,53 @@ export const messages = {
 
   ART_PRODUCT_1_IMPORTANT_NOTE: "Não use os tijolos antes da cura completa para garantir sua resistência.",
 
+  ART_PRODUCT_7_MATERIAL_1: '1 inflorescência de bananeira (umbigo/coração) médio',
+  ART_PRODUCT_7_MATERIAL_2: '500 ml de água',
+  ART_PRODUCT_7_MATERIAL_3: '1 colher (sopa) de gengibre ralado',
+  ART_PRODUCT_7_MATERIAL_4: ' 1 colher (sopa) de açafrão ralado',
+  ART_PRODUCT_7_MATERIAL_5: 'Suco de 1 limão',
+  ART_PRODUCT_7_MATERIAL_6: '1 e 1⁄2 xícara (chá) de açúcar mascavo ou mel (se preferir mais natural)',
+
+  INGREDIENTS: 'Ingredientes',
+  METHOD: 'Modo de preparo',
+  USE_RECOMENDATION: 'Uso recomendado',
+
+  ART_PRODUCT_7_STEP_1: 'Lavar bem a inflorescência, remover as folhas externas mais grossas e picar em pedaços pequenos.',
+  ART_PRODUCT_7_STEP_2: 'Colocar em uma panela com a água, o gengibre e o açafrão.',
+  ART_PRODUCT_7_STEP_3: 'Levar ao fogo baixo e deixar ferver por cerca de 30 a 40 minutos, até reduzir um pouco.',
+  ART_PRODUCT_7_STEP_4: 'Coar o líquido com uma peneira fina ou pano limpo.',
+  ART_PRODUCT_7_STEP_5: 'Volte o líquido coado ao fogo e adicione o açúcar mascavo, mexendo até dissolver. **Se optar por usar mel, adicione-o apenas quando a mistura estiver morna ou fria**, para preservar suas propriedades e evitar que o calor intenso degrade seus nutrientes e aroma.',
+  ART_PRODUCT_7_STEP_6: 'Mexer até engrossar um pouco e atingir a consistência de xarope (leva cerca de 15 minutos em fogo baixo).',
+  ART_PRODUCT_7_STEP_7: 'Após esfriar, adicione o suco de limão, se quiser conservar melhor e dar um toque cítrico.',
+  ART_PRODUCT_7_STEP_8: 'Armazenar em vidro esterilizado, com tampa, na geladeira.',
+
+  ART_PRODUCT_7_USE_RECOMENDATION_1: 'Tomar 1 colher de sopa 2 a 3 vezes ao dia, conforme a necessidade.',
+  ART_PRODUCT_7_USE_RECOMENDATION_2: 'Para crianças acima de 2 anos, usar 1 colher de chá.',
+
+  ART_PRODUCT_6_INFO: 'O **palmito da bananeira** é uma preparação alimentar feita a partir do miolo do pseudocaule da bananeira ou seja, da parte interna e mais macia do tronco (que na verdade é um caule falso). Ele é bastante nutritivo, rico em fibras e pode ser usado como alternativa ao palmito tradicional.',
+
+  ART_PRODUCT_6_MATERIAL_1: '1 miolo de bananeira (parte interna e branca do pseudocaule)',
+  ART_PRODUCT_6_MATERIAL_2: 'Água',
+  ART_PRODUCT_6_MATERIAL_3: 'Suco de 2 limões ou 100 ml de vinagre branco (para evitar oxidação)',
+  ART_PRODUCT_6_MATERIAL_4: 'Sal a gosto',
+  ART_PRODUCT_6_MATERIAL_5: 'Temperos opcionais: alho, cebola, pimenta-do-reino, louro, azeite, etc.',
+
+  ART_PRODUCT_6_STEP_1_TITLE: 'Colheita e limpeza',
+  ART_PRODUCT_6_STEP_1_1: 'Corte o tronco da bananeira após a colheita do cacho (isso garante sustentabilidade).',
+  ART_PRODUCT_6_STEP_1_2: 'Retire as camadas externas até encontrar o **miolo branco e macio**, que parece um palmito.',
+  ART_PRODUCT_6_STEP_2_TITLE: 'Corte e imersão',
+  ART_PRODUCT_6_STEP_2_1: 'Corte o miolo em rodelas ou tiras finas, conforme preferir.',
+  ART_PRODUCT_6_STEP_2_2: 'Coloque imediatamente numa bacia com **água e limão ou vinagre** para evitar que escureça.',
+  ART_PRODUCT_6_STEP_3_TITLE: 'Cozimento',
+  ART_PRODUCT_6_STEP_3_1: 'Ferva água em uma panela com um pouco de sal.',
+  ART_PRODUCT_6_STEP_3_2: 'Acrescente o palmito e deixe cozinhar por cerca de **20 a 30 minutos**, até ficar macio.',
+  ART_PRODUCT_6_STEP_4_TITLE: 'Refogado (opcional)',
+  ART_PRODUCT_6_STEP_4_1: 'Escorra o palmito cozido.',
+  ART_PRODUCT_6_STEP_4_2: 'Em uma panela, refogue alho e cebola no azeite, acrescente o palmito e tempere com sal, pimenta e louro.',
+  ART_PRODUCT_6_STEP_4_3: 'Deixe apurar por 5 a 10 minutos, mexendo delicadamente.',
+  ART_PRODUCT_6_USE_RECOMENDATION_1: 'Como substituto do palmito em tortas, saladas, risotos e recheios.',
+  ART_PRODUCT_6_USE_RECOMENDATION_2: 'Refogado puro como acompanhamento.',
+  ART_PRODUCT_6_USE_RECOMENDATION_3: 'Conservado em vidro com salmoura (como se faz com palmito em conserva).',
+  ART_PRODUCT_6_IMPORTANT_NOTE_1: 'Sempre use **bananeiras que já deram cacho**, pois assim você não prejudica a produção do bananal. ',
+  ART_PRODUCT_6_IMPORTANT_NOTE_2: 'Lave bem o miolo antes do preparo para remover qualquer resíduo.'
 };

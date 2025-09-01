@@ -177,11 +177,90 @@ export const recepies = [
             {
                 text: messages.ART_PRODUCT_2_STEP_5_TITLE,
                 substeps: [
-                    messages.ART_PRODUCT_1_STEP_6_1,
-                    messages.ART_PRODUCT_1_STEP_6_2,
-                    messages.ART_PRODUCT_1_STEP_6_3,
+                    displayMessage("ART_PRODUCT_1_STEP_6_1"),
+                    displayMessage("ART_PRODUCT_1_STEP_6_2"),
+                    displayMessage("ART_PRODUCT_1_STEP_6_3"),
                 ]
             }
         ],
-    }
+    },
+    {
+        title: displayMessage("ART_TITLE_7"),
+        cooking: true,
+        materials: [
+            displayMessage("ART_PRODUCT_7_MATERIAL_1"),
+            displayMessage("ART_PRODUCT_7_MATERIAL_2"),
+            displayMessage("ART_PRODUCT_7_MATERIAL_3"),
+            displayMessage("ART_PRODUCT_7_MATERIAL_4"),
+            displayMessage("ART_PRODUCT_7_MATERIAL_5"),
+            displayMessage("ART_PRODUCT_7_MATERIAL_6"),
+        ],
+        steps: [
+
+            { text: displayMessage("ART_PRODUCT_7_STEP_1") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_2") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_3") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_4") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_5") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_6") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_7") },
+            { text: displayMessage("ART_PRODUCT_7_STEP_8") },
+        ],
+        howToUse: [
+            displayMessage("ART_PRODUCT_7_USE_RECOMENDATION_1"),
+            displayMessage("ART_PRODUCT_7_USE_RECOMENDATION_2")
+        ]
+    },
+    {
+        title: displayMessage("ART_TITLE_6"),
+        cooking: true,
+        info: '',
+        materials: [
+            displayMessage("ART_PRODUCT_6_MATERIAL_1"),
+            displayMessage("ART_PRODUCT_6_MATERIAL_2"),
+            displayMessage("ART_PRODUCT_6_MATERIAL_3"),
+            displayMessage("ART_PRODUCT_6_MATERIAL_4"),
+            displayMessage("ART_PRODUCT_6_MATERIAL_5"),
+        ],
+        steps: [
+            {
+                text: displayMessage("ART_PRODUCT_6_STEP_1_TITLE"),
+                substeps: [
+                    displayMessage("ART_PRODUCT_6_STEP_1_1"),
+                    displayMessage("ART_PRODUCT_6_STEP_1_2"),
+                ]
+            },
+            {
+                text: displayMessage("ART_PRODUCT_6_STEP_2_TITLE"),
+                substeps: [
+                    displayMessage("ART_PRODUCT_6_STEP_2_1"),
+                    displayMessage("ART_PRODUCT_6_STEP_2_2"),
+                ]
+            },
+            {
+                text: displayMessage("ART_PRODUCT_6_STEP_3_TITLE"),
+                substeps: [
+                    displayMessage("ART_PRODUCT_6_STEP_3_1"),
+                    displayMessage("ART_PRODUCT_6_STEP_3_2"),
+                ]
+            },
+            {
+                text: displayMessage("ART_PRODUCT_6_STEP_4_TITLE"),
+                substeps: [
+                    displayMessage("ART_PRODUCT_6_STEP_4_1"),
+                    displayMessage("ART_PRODUCT_6_STEP_4_2"),
+                ]
+            },
+            
+        ],
+        howToUse: [
+            displayMessage("ART_PRODUCT_6_USE_RECOMENDATION_1"),
+            displayMessage("ART_PRODUCT_6_USE_RECOMENDATION_2"),
+            displayMessage("ART_PRODUCT_6_USE_RECOMENDATION_3"),
+        ],
+        important_notes: [
+            displayMessage("ART_PRODUCT_6_IMPORTANT_NOTE_1"),
+            displayMessage("ART_PRODUCT_6_IMPORTANT_NOTE_2"),
+        ]
+    },
 ]
