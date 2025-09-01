@@ -68,16 +68,6 @@ export const artSteps = [
     },
 ]
 
-export const products_examples = [
-    messages.PRODUCT_1,
-    messages.PRODUCT_2,
-    messages.PRODUCT_3,
-    messages.PRODUCT_4,
-    messages.PRODUCT_5,
-    messages.PRODUCT_6,
-    messages.PRODUCT_7,
-];
-
 export const recepies = [
     {
         title: messages.ART_TITLE_2,
