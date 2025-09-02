@@ -4,6 +4,7 @@ import cordas from '../assets/cordas.jpeg'
 import decoracoes from '../assets/decoracoes.jpeg'
 import conserva from '../assets/conserva.jpeg'
 import xarope from '../assets/xarope.jpeg'
+import esponja from '../assets/esponja.jpeg'
 
 import extracao from '../assets/extracao.jpeg'
 import separacao from '../assets/separacao.jpeg'
@@ -24,11 +25,11 @@ export const arts = [
         description: displayMessage("ART_PRODUCT_2"),
         image: tijolo,
     },
-    // {
-    //     title: displayMessage("ART_TITLE_3"),
-    //     description: displayMessage("ART_PRODUCT_3"),
-    //     image: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
-    // },
+    {
+        title: displayMessage("ART_TITLE_3"),
+        description: displayMessage("ART_PRODUCT_3"),
+        image: esponja,
+    },
     {
         title: displayMessage("ART_TITLE_4"),
         description: displayMessage("ART_PRODUCT_4"),
