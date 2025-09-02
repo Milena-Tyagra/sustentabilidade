@@ -195,5 +195,36 @@ export const messages = {
   PHONE: 'Telefone',
 
   // summary
-  SUMMARY_INFO: "O projeto “Fibra de bananeira: inovação sustentável a partir do campo”, desenvolvido pelos alunos do 9º ano da Escola de Educação Básica Eliseu Guilherme, sob orientação da professora Mariléia Mallmann, foi realizado na disciplina de Ciências, dentro do eixo temático da sustentabilidade, e teve como propósito investigar o potencial do pseudocaule da bananeira, geralmente descartado após a colheita, como matéria-prima sustentável e fonte de geração de renda no meio rural. A proposta surgiu a partir da necessidade de discutir alternativas para a redução de resíduos agrícolas e, ao mesmo tempo, valorizar os saberes locais, promovendo a integração entre ciência, comunidade e inovação. O objetivo principal foi avaliar a viabilidade ambiental, social e econômica do reaproveitamento da fibra, estimulando o protagonismo estudantil e incentivando o empreendedorismo verde. Para tanto, a metodologia contou com revisão bibliográfica para fundamentação teórica, entrevistas com agricultores, artesãos e membros da comunidade escolar, além de atividades práticas realizadas em diferentes etapas, nas quais os alunos exploraram o uso da fibra em múltiplas aplicações. Entre os experimentos desenvolvidos destacaram-se a produção de papel artesanal, tijolos ecológicos, cordas, esponjas vegetais, peças decorativas e acessórios como colares e brincos, demonstrando a diversidade de produtos que podem ser obtidos a partir desse material natural. A experiência revelou também a importância da criatividade e da experimentação no processo de aprendizagem, uma vez que os estudantes participaram ativamente do planejamento, da execução e da análise dos resultados. A divulgação da pesquisa foi realizada em uma mostra escolar aberta ao público, que permitiu à comunidade conhecer os produtos confeccionados e compreender o impacto ambiental e social da proposta. Além disso, com o objetivo de ampliar o alcance do projeto e utilizar a tecnologia como aliada na comunicação científica, foi criada uma página digital contendo registros fotográficos do processo, entrevistas, produtos desenvolvidos e vídeos, incluindo recursos de acessibilidade, o que garantiu maior inclusão e democratização do conhecimento. Os resultados evidenciaram a viabilidade ambiental, social e econômica do reaproveitamento da fibra de bananeira, reforçando seu potencial como recurso sustentável e alternativa de geração de renda no meio rural, ao mesmo tempo em que fortaleceram a valorização dos saberes populares e a formação cidadã crítica dos alunos envolvidos. Como desafios, destacaram-se a ausência de formação ou treinamentos específicos que auxiliem os alunos e a professora no domínio de técnicas mais avançadas de extração e beneficiamento da fibra, garantindo maior padronização e qualidade nos produtos confeccionados. Ainda assim, conclui-se que a iniciativa demonstrou o papel essencial da escola como espaço formador de cidadãos conscientes e inovadores, capazes de transformar resíduos agrícolas em oportunidades sustentáveis, promovendo impactos positivos tanto na comunidade escolar quanto no meio rural."
+  SUMMARY_INFO: `O projeto “Fibra de bananeira: inovação sustentável a partir do campo”, desenvolvido pelos
+   alunos do 9º ano da Escola de Educação Básica Eliseu Guilherme, sob orientação da professora Mariléia 
+   Mallmann, foi realizado na disciplina de Ciências, dentro do eixo temático da sustentabilidade, e teve 
+   como propósito investigar o potencial do pseudocaule da bananeira, geralmente descartado após a 
+   colheita, como matéria-prima sustentável e fonte de geração de renda no meio rural. A proposta surgiu a 
+   partir da necessidade de discutir alternativas para a redução de resíduos agrícolas e, ao mesmo tempo, 
+   valorizar os saberes locais, promovendo a integração entre ciência, comunidade e inovação. O objetivo 
+   principal foi avaliar a viabilidade ambiental, social e econômica do reaproveitamento da fibra, 
+   estimulando o protagonismo estudantil e incentivando o empreendedorismo verde. Para tanto, a metodologia 
+   contou com revisão bibliográfica para fundamentação teórica, entrevistas com agricultores, artesãos e 
+   membros da comunidade escolar, além de atividades práticas realizadas em diferentes etapas, nas quais os 
+   alunos exploraram o uso da fibra em múltiplas aplicações. Entre os experimentos desenvolvidos 
+   destacaram-se a produção de papel artesanal, tijolos ecológicos, cordas, esponjas vegetais, peças 
+   decorativas e acessórios como colares e brincos, demonstrando a diversidade de produtos que podem ser 
+   obtidos a partir desse material natural. A experiência revelou também a importância da criatividade e da 
+   experimentação no processo de aprendizagem, uma vez que os estudantes participaram ativamente do 
+   planejamento, da execução e da análise dos resultados. A divulgação da pesquisa foi realizada em uma 
+   mostra escolar aberta ao público, que permitiu à comunidade conhecer os produtos confeccionados e 
+   compreender o impacto ambiental e social da proposta. Além disso, com o objetivo de ampliar o alcance do 
+   projeto e utilizar a tecnologia como aliada na comunicação científica, foi criada uma página digital 
+   contendo registros fotográficos do processo, entrevistas, produtos desenvolvidos e vídeos, incluindo 
+   recursos de acessibilidade, o que garantiu maior inclusão e democratização do conhecimento. Os 
+   resultados evidenciaram a viabilidade ambiental, social e econômica do reaproveitamento da fibra de 
+   bananeira, reforçando seu potencial como recurso sustentável e alternativa de geração de renda no meio 
+   rural, ao mesmo tempo em que fortaleceram a valorização dos saberes populares e a formação cidadã 
+   crítica dos alunos envolvidos. Como desafios, destacaram-se a ausência de formação ou treinamentos 
+   específicos que auxiliem os alunos e a professora no domínio de técnicas mais avançadas de extração e 
+   beneficiamento da fibra, garantindo maior padronização e qualidade nos produtos confeccionados. Ainda 
+   assim, conclui-se que a iniciativa demonstrou o papel essencial da escola como espaço formador de 
+   cidadãos conscientes e inovadores, capazes de transformar resíduos agrícolas em oportunidades 
+   sustentáveis, promovendo impactos positivos tanto na comunidade escolar quanto no meio rural.
+`
 };
