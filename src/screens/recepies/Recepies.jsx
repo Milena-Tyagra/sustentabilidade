@@ -1,5 +1,5 @@
-import { Divider } from "antd"
 import { DotOutline, Leaf, WarningCircle } from "@phosphor-icons/react"
+import { Separator } from "../../components/separator/Separator"
 
 import { displayMessage } from "../../components/messages/Message"
 import { recepies } from "../../helpers/mocks"
@@ -8,7 +8,7 @@ export const Recepies = () => {
     return (
         <div className="flex flex-col gap-5">
             {recepies.map((recepy, i) => (<div key={`recepy-${i}`} className="flex flex-col gap-2">
-                <Divider style={{ borderColor: '#a4c1a6' }} variant="dashed" orientation="left"><b className="text-primary-200">{recepy.title}</b></Divider>
+                <Separator title={recepy.title}/>
 
                 {recepy.info && <p>{recepy.info}</p>}
 
