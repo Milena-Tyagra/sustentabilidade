@@ -365,5 +365,8 @@ COMUNITY_ANSWER_9_15: `Sustentabilidade e reaproveitamento`,
 COMUNITY_QUESTION_10: ` Na sua opinião, a escola deve incentivar projetos ligados à sustentabilidade e à valorização do campo?`,
 COMUNITY_ANSWER_10_1: `100% dos entrevistados responderam "Sim"`,
 
+EXPOSITIONS: 'Exposições',
+STUDENTS_AND_PROCESSES: 'Processos e práticas'
+
 
 };

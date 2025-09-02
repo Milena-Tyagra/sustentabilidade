@@ -13,6 +13,7 @@ import { Recepies } from "./screens/recepies/Recepies";
 import { AboutUs } from "./screens/aboutUs/AboutUs";
 import { Summary } from "./screens/summary/Summary";
 import { Interviews } from "./screens/enterviews/Interviews";
+import { Gallery } from "./components/gallery/Galley";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="about-us" element={<AboutUs />} />
             <Route path="summary" element={<Summary />} />
             <Route path="interviews" element={<Interviews />} />
+            <Route path="gallery" element={<Gallery />} />
           </Routes>
         </Layout>
       </BrowserRouter>
