@@ -4,7 +4,7 @@ import logo from '../../assets/logo.jpeg'
 
 import { Context } from "../../context/Context";
 import { displayMessage } from "../../components/messages/Message";
-import { acknowledges, advisors, artisains, developers, exhibitors, farmers, interpreters, managers, students, teachers } from "../../helpers/mocks";
+import { acknowledges, advisors, artisains, contact, developers, exhibitors, farmers, interpreters, managers, students, teachers } from "../../helpers/mocks";
 import { Info } from "./components/Info";
 import { Separator } from "../../components/separator/Separator";
 
@@ -33,6 +33,11 @@ export const AboutUs = () => {
 
             <Separator title={displayMessage("ACKNOWLEDMENTS")} />
             <Info info={acknowledges} />
+            <Separator title={displayMessage("CONTACT_US")} />
+            <Info title={displayMessage("CONTACT")} info={contact.email} />
+            <Info title={displayMessage("ADRESS")} info={contact.adress} />
+            <Info title={displayMessage("PHONE")} info={contact.phone} />
+            
 
         </div>
     )

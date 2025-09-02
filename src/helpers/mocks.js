@@ -351,5 +351,11 @@ export const acknowledges = [
     displayMessage("ACKNOWLEDMENTS_10"),
 ]
 
+export const contact = {
+    email: ['marileia.mallmann29@gmail.com'],
+    adress: ['R. Dr. Getúlio Vargas, 1545 - Bela Vista, Ibirama - SC, 89140-000 '],
+    phone: ['(47) 3357-8974']
+}
+
 
 

@@ -187,4 +187,10 @@ export const messages = {
   ACKNOWLEDMENTS_8: 'Ao intérprete de Libras dos vídeos, por tornar o conhecimento acessível, contribuindo para a inclusão e para o alcance de mais pessoas.',
   ACKNOWLEDMENTS_9: 'À Desenvolvedora da página, pelo cuidado e dedicação em dar visibilidade ao nosso trabalho, tornando-o acessível a toda a comunidade.',
   ACKNOWLEDMENTS_10: 'A todos que, de forma direta ou indireta, contribuíram para a concretização desta iniciativa, deixamos aqui nossa sincera gratidão.',
+
+  CONTACT_US: 'Entre em contato conosco',
+
+  CONTACT: 'Contato',
+  ADRESS: 'Endereço',
+  PHONE: 'Telefone',
 };
