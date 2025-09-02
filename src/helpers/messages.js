@@ -158,5 +158,33 @@ export const messages = {
   ART_PRODUCT_6_USE_RECOMENDATION_2: 'Refogado puro como acompanhamento.',
   ART_PRODUCT_6_USE_RECOMENDATION_3: 'Conservado em vidro com salmoura (como se faz com palmito em conserva).',
   ART_PRODUCT_6_IMPORTANT_NOTE_1: 'Sempre use **bananeiras que já deram cacho**, pois assim você não prejudica a produção do bananal. ',
-  ART_PRODUCT_6_IMPORTANT_NOTE_2: 'Lave bem o miolo antes do preparo para remover qualquer resíduo.'
+  ART_PRODUCT_6_IMPORTANT_NOTE_2: 'Lave bem o miolo antes do preparo para remover qualquer resíduo.',
+
+  // about us
+  ABOUT_US_INFO: `
+  Projeto realizado na cidade de Ibirama-SC, na Escola de Educação Básica Eliseu Guilherme, pelos alunos do
+  9° ano, turma 4, na disciplina de Ciências, com foco no tema sustentabilidade, sob orientação da
+  professora Mariléia Mallmann.
+  `,
+  MANAGER: 'Gestor',
+  ADVISOR: 'Assessora',
+  GUIDING_TEACHER: 'Professora Orientadora',
+  STUDENTS: 'Alunos',
+  EXHIBITORS: 'Alunos expositores',
+  FARMERS: 'Agricultores',
+  ARTISANS: 'Artesãos',
+  INTERPRETER: 'Intérprete de Libras dos vídeos',
+  DEVELOPER: 'Desenvolvedora da página',
+  INVOLVED: 'Pessoas envolvidas no projeto',
+  ACKNOWLEDMENTS: 'Agradecimentos',
+  ACKNOWLEDMENTS_1: 'A realização deste projeto só foi possível graças à colaboração e ao apoio de muitas pessoas e instituições que, de diferentes maneiras, contribuíram para sua construção.',
+  ACKNOWLEDMENTS_2: 'À Professora Orientadora, pela dedicação, paciência e condução cuidadosa em todas as fases da pesquisa, sendo peça fundamental para a realização deste trabalho.',
+  ACKNOWLEDMENTS_3: 'Aos Alunos, pela dedicação, empenho e criatividade, que deram vida e sentido ao projeto.',
+  ACKNOWLEDMENTS_4: 'Aos Professores incentivadores, pela motivação e partilha de conhecimentos que fortaleceram cada etapa do trabalho.',
+  ACKNOWLEDMENTS_5: 'Ao Gestor, à Assessora Escolar e à equipe pedagógica, pelo apoio constante e pela confiança depositada em nossa iniciativa.',
+  ACKNOWLEDMENTS_6: 'Agradecemos à Comunidade Escolar, pelo envolvimento e acolhimento da proposta.',
+  ACKNOWLEDMENTS_7: 'Aos Agricultores e Artesãos, pela disponibilidade em compartilhar suas experiências, saberes e práticas, enriquecendo nossa visão sobre a sustentabilidade.',
+  ACKNOWLEDMENTS_8: 'Ao intérprete de Libras dos vídeos, por tornar o conhecimento acessível, contribuindo para a inclusão e para o alcance de mais pessoas.',
+  ACKNOWLEDMENTS_9: 'À Desenvolvedora da página, pelo cuidado e dedicação em dar visibilidade ao nosso trabalho, tornando-o acessível a toda a comunidade.',
+  ACKNOWLEDMENTS_10: 'A todos que, de forma direta ou indireta, contribuíram para a concretização desta iniciativa, deixamos aqui nossa sincera gratidão.',
 };

@@ -8,6 +8,7 @@ export const Sidebar = ({onClick, height}) => {
         { title: 'Home', path: '/' },
         { title: 'Artesanato', path: '/art' },
         { title: 'Receitas', path: '/recepy' },
+        { title: 'Sobre nós', path: '/about-us' },
     ]
     return (
         <div className={`flex flex-col gap-3 px-2  ${mobile_mode ? ' w-full bg-secondary-100 py-3' : 'min-w-[300px] bg-secondary-400'}`} style={{height}}> 

@@ -253,7 +253,7 @@ export const recepies = [
                     displayMessage("ART_PRODUCT_6_STEP_4_2"),
                 ]
             },
-            
+
         ],
         howToUse: [
             displayMessage("ART_PRODUCT_6_USE_RECOMENDATION_1"),
@@ -266,3 +266,90 @@ export const recepies = [
         ]
     },
 ]
+
+export const managers = [
+    'Eduardo S. Heusser'
+]
+
+export const advisors = [
+    'Valéria França'
+]
+
+export const teachers = [
+    'Mariléia Mallmann'
+]
+
+export const students = [
+    'Alessandra Alves',
+    'Ana Carolina Da Rocha Barbosa',
+    'Beatriz Borges Dos Santos',
+    'Eduarda Alves',
+    'Eloá Elias Da Cruz',
+    'Ester De Andrade França Da Rocha',
+    'Gabrielly Vaz',
+    'Jacqueline Flores Piovesan',
+    'João Vitor Ramos',
+    'Kaio Henrique Denzer Da Silva',
+    'Kauan Schroeder Barth Corrêa',
+    'Liandra Anacleto Scheel',
+    'Luan Gabriel Steinbach',
+    'Marcos Gustavo Da Costa',
+    'Murillo Vinícius Da Silva',
+    'Natasha Trombotto Elias',
+    'Nícolas Adolfo Da Silva',
+    'Nicoly Boing Marcelino',
+    'Pedro Vinicius Zandonai',
+    'Samuel Vinicius Da Silva Calisto',
+    'Tiago Henrique Vieira',
+    'Victor Cristiano Cavichiolli',
+    'Vinícius José Da Silva',
+    'Yanka Thayná Rossini',
+    'Yara Rafaela Jacinto',
+    'Yarah Beatriz Ibers'
+]
+
+export const exhibitors = [
+    'Natasha Trombotto Elias',
+    'Victor Cristiano Cavichiolli'
+]
+
+export const farmers = [
+    'Claudir Novaski',
+    'Daniela Mewes',
+    'Lindia de Souza',
+    'Luiz Mewes',
+    'Robson Voss'
+]
+
+export const artisains = [
+    'Denise Casas',
+    'Elusa I. S. Fuhrmann',
+    'Jamile Thauany',
+    'Kaio E. Schroeder',
+    'Luzia da Silva',
+    'Valdemir Borges'
+]
+
+export const interpreters = [
+    
+]
+
+export const developers = [
+    'Milena Tyagra'
+]
+
+export const acknowledges = [
+    displayMessage("ACKNOWLEDMENTS_1"),
+    displayMessage("ACKNOWLEDMENTS_2"),
+    displayMessage("ACKNOWLEDMENTS_3"),
+    displayMessage("ACKNOWLEDMENTS_4"),
+    displayMessage("ACKNOWLEDMENTS_5"),
+    displayMessage("ACKNOWLEDMENTS_6"),
+    displayMessage("ACKNOWLEDMENTS_7"),
+    displayMessage("ACKNOWLEDMENTS_8"),
+    displayMessage("ACKNOWLEDMENTS_9"),
+    displayMessage("ACKNOWLEDMENTS_10"),
+]
+
+
+

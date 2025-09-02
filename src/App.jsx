@@ -10,6 +10,7 @@ import { Art } from "./screens/art/Art";
 
 import { ContextProvider } from "./context/ContextProvider";
 import { Recepies } from "./screens/recepies/Recepies";
+import { AboutUs } from "./screens/aboutUs/AboutUs";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             />
             <Route path="art" element={<Art />} />
             <Route path="recepy" element={<Recepies />} />
+            <Route path="about-us" element={<AboutUs />} />
           </Routes>
         </Layout>
       </BrowserRouter>
