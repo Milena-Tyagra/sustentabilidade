@@ -1,12 +1,12 @@
 import { useContext } from "react";
 
 import logo from '../../assets/logo.jpeg'
+import { Info } from "../../components/info/Info";
+import { Separator } from "../../components/separator/Separator";
 
 import { Context } from "../../context/Context";
 import { displayMessage } from "../../components/messages/Message";
 import { acknowledges, advisors, artisains, contact, developers, exhibitors, farmers, interpreters, managers, students, teachers } from "../../helpers/mocks";
-import { Info } from "./components/Info";
-import { Separator } from "../../components/separator/Separator";
 
 export const AboutUs = () => {
     const { mobile_mode } = useContext(Context)
