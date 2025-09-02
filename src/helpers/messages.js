@@ -173,6 +173,7 @@ export const messages = {
   EXHIBITORS: 'Alunos expositores',
   FARMERS: 'Agricultores',
   ARTISANS: 'Artesãos',
+  COMUNITY: 'Comunidade escolar',
   INTERPRETER: 'Intérprete de Libras dos vídeos',
   DEVELOPER: 'Desenvolvedora da página',
   INVOLVED: 'Pessoas envolvidas no projeto',
@@ -226,5 +227,143 @@ export const messages = {
    assim, conclui-se que a iniciativa demonstrou o papel essencial da escola como espaço formador de 
    cidadãos conscientes e inovadores, capazes de transformar resíduos agrícolas em oportunidades 
    sustentáveis, promovendo impactos positivos tanto na comunidade escolar quanto no meio rural.
-`
+`,
+
+//entreviews
+FARMER_QUESTION_1: 'O que vocês costumam fazer com o pseudocaule da bananeira após a colheita?',
+FARMER_ANSWER_1_1: '100% dos entrevistados responderam "Descartado"',
+FARMER_QUESTION_2: `Você já ouviu falar que a fibra da bananeira pode ser usada na produção de papel,
+artesanato ou construção? O que pensa sobre essa possibilidade?`,
+FARMER_ANSWER_2_1: '100% dos entrevistados responderam "Não ouviu falar"',
+FARMER_ANSWER_2_2: '100% dos entrevistados responderam "Se interessaram"',
+FARMER_QUESTION_3: `Você teria interesse em aprender técnicas de reaproveitamento da fibra, se isso pudesse
+gerar renda extra?`,
+FARMER_ANSWER_3_1: '100% dos entrevistados responderam "Sim"',
+FARMER_QUESTION_4: `Na sua opinião, quais seriam as maiores dificuldades para implantar esse tipo de
+iniciativa na comunidade rural?(Falta de tempo, ferramentas, conhecimento técnico?)
+`,
+FARMER_ANSWER_4_1: '100% dos entrevistados responderam "Conhecimento técnico"',
+FARMER_QUESTION_5: `Você acredita que projetos como esse, que unem o campo e a sustentabilidade, podem
+fortalecer a agricultura familiar?
+`,
+FARMER_ANSWER_5_1: '100% dos entrevistados responderam "Sim"',
+
+ARTISANS_QUESTION_1: `Você já ouviu falar ou já trabalhou com fibras naturais, como a da bananeira?
+Se sim, como foi a experiência?`,
+ARTISANS_ANSWER_1_1: '10% dos entrevistados responderam "Ouvi falar"',
+ARTISANS_ANSWER_1_2: '10% dos entrevistados responderam "Já trabalhei/Tive ótima experiência com os resultados"',
+ARTISANS_ANSWER_1_3: '80% dos entrevistados responderam "Não ouvi falar"',
+ARTISANS_QUESTION_2: `Que tipo de produtos você acha que poderiam ser feitos com a fibra da bananeira?
+(E você teria interesse em experimentar?)`,
+ARTISANS_ANSWER_2_1: '100% dos entrevistados responderam "Artesanato"',
+ARTISANS_ANSWER_2_2: '100% dos entrevistados responderam "Tem interesse"',
+ARTISANS_QUESTION_3: `Quais são os principais desafios no uso de matérias-primas naturais e sustentáveis no
+artesanato?`,
+ARTISANS_ANSWER_3_1: 'Encontrar matéria prima de qualidade',
+ARTISANS_ANSWER_3_2: 'Bom preço',
+ARTISANS_ANSWER_3_3: 'Custo final do produto',
+ARTISANS_QUESTION_4: `Você acredita que há interesse dos clientes por produtos ecológicos e feitos à mão?
+Que tipo de peça costuma ter mais saída?`,
+ARTISANS_ANSWER_4_1: ' 100% dos entrevistados responderam "Sim"',
+ARTISANS_ANSWER_4_2: 'Crochê',
+ARTISANS_ANSWER_4_3: 'Cestos',
+ARTISANS_ANSWER_4_4: 'Artigos de decoração',
+ARTISANS_QUESTION_5: `Como você vê o papel do artesanato sustentável na geração de renda e valorização da
+cultura local?`,
+ARTISANS_ANSWER_5_1: 'O artesanato sustentável gera renda aproveitando materiais que seriam jogados fora e transforma em produtos úteis e bonitos.',
+ARTISANS_ANSWER_5_2: 'Ele ajuda a valorizar a cultura local, mantendo tradições vivas e mostrando a identidade da comunidade.',
+ARTISANS_ANSWER_5_3: 'Também é uma forma de ensinar sobre respeito ao meio ambiente e dar novas oportunidades para as pessoas.',
+
+COMUNITY_QUESTION_1: `Você sabe quais partes formam a planta da bananeira além do cacho de bananas?
+Se sim, quais?`,
+COMUNITY_ANSWER_1_1: '40% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_1_2: '60%% dos entrevistados responderam "Não"',
+COMUNITY_ANSWER_1_3: 'Caule, folhas e raízes',
+COMUNITY_ANSWER_1_4: 'Frutos, pseudocaule, folhas, folhas, frutos e sementes.',
+COMUNITY_ANSWER_1_5: 'Raiz, caule( que na verdade é formado por folhas) folhas e raízes.',
+COMUNITY_ANSWER_1_6: 'Raiz, caule, pseudocaule, folhas , bananas e coração tronco, folha, cacho, raiz e fruto.',
+COMUNITY_ANSWER_1_7: 'A bananeira é uma angiosperma (planta com flores) e monocotiledônea (tem apenas um cotilédone na semente). ',
+COMUNITY_QUESTION_2: ` O que normalmente acontece com o tronco da bananeira (pseudocaule) depois que as bananas são colhidas?`,
+COMUNITY_ANSWER_2_1: 'Apodrece',
+COMUNITY_ANSWER_2_2: 'Vira adubo.',
+COMUNITY_ANSWER_2_3: 'Elas perdem sua função, mas algumas pessoas acabam reaproveitando para outras coisas que podem ser usadas no dia-a-dia.',
+COMUNITY_ANSWER_2_4: 'Decepado e deixado como matéria orgânica.',
+COMUNITY_ANSWER_2_5: 'Cortamos e tratamos pro gado.',
+COMUNITY_QUESTION_3: `Você já viu alguém reaproveitando alguma parte da bananeira para fazer outro tipo de produto (alimento, artesanato, adubo, etc.)?
+Se sim, o quê?`,
+COMUNITY_ANSWER_3_1: '46,7% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_3_2: '53,3% dos entrevistados responderam "Não"',
+COMUNITY_ANSWER_3_3: 'Artesanato e alimento para animais.',
+COMUNITY_ANSWER_3_4: 'Cobertura de casa.',
+COMUNITY_ANSWER_3_5: 'Cordas e o palmito da banana.',
+COMUNITY_ANSWER_3_6: 'Chá e adubo.',
+COMUNITY_ANSWER_3_7: 'Folhas para barracas, o coração da bananeira para a alimentação.',
+COMUNITY_QUESTION_4: `Você considera a bananeira uma planta importante para a agricultura familiar?`,
+COMUNITY_ANSWER_4_1: '95,6% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_4_2: '4,4% dos entrevistados responderam "Não sei"',
+COMUNITY_QUESTION_5: `Você já ouviu falar sobre a reutilização de resíduos agrícolas para fabricar produtos sustentáveis?  Se sim, quais produtos?`,
+COMUNITY_ANSWER_5_1: '53,3% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_5_2: '46,7% dos entrevistados responderam "Não"',
+COMUNITY_ANSWER_5_3: 'Resíduos como casca de grãos de arroz que podem virar tijolos, por exemplo.',
+COMUNITY_ANSWER_5_4: 'Cestos.',
+COMUNITY_ANSWER_5_5: 'Compostagem para hortas.',
+COMUNITY_ANSWER_5_6: 'Tijolo ecológico, papel reciclável, adubo com restos de alimentos.',
+COMUNITY_ANSWER_5_7: 'Já ouvi falar, mas era bem pouco sobre e geralmente era para fertilizante ou algo assim.',
+COMUNITY_QUESTION_6: `Na sua opinião, materiais que seriam descartados podem virar fonte de renda no campo`,
+COMUNITY_ANSWER_6_1: '95,6% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_6_2: '2,2% dos entrevistados responderam "Não"',
+COMUNITY_ANSWER_6_3: '2,2% dos entrevistados responderam "Não sei"',
+COMUNITY_QUESTION_7: `Na sua opinião, é possível transformar a bananeira (ou partes dela) em uma fonte de renda além da fruta?`,
+COMUNITY_ANSWER_7_1: '82,2% dos entrevistados responderam "Sim"',
+COMUNITY_ANSWER_7_2: '2,2% dos entrevistados responderam "Não"',
+COMUNITY_ANSWER_7_3: '15,6% dos entrevistados responderam "Não sei"',
+COMUNITY_QUESTION_8: `Você acredita que o meio rural pode ser um lugar de inovação e soluções sustentáveis? Por quê? `,
+COMUNITY_ANSWER_8_1: ` 100% dos entrevistados responderam "Sim"`,
+COMUNITY_ANSWER_8_2: `
+Acredito, ainda mais com toda essa preocupação crescente
+com o meio ambiente. se a gente não começar a pensar em
+soluções sustentáveis desde já, vai ficar cada vez mais difícil
+de salvar nosso planeta.
+`,
+COMUNITY_ANSWER_8_3: `
+Claro. Só precisamos conhecer os processos, recriação é
+uma ótima opção sustentável.
+`,
+COMUNITY_ANSWER_8_4: `
+Com certeza, pois atualmente com o mundo moderno cada
+vez mais consumista, capitalista e estressante muitas
+pessoas estão buscando e voltando para o meio rural em
+busca de qualidade de vida.
+`,
+COMUNITY_ANSWER_8_5: `
+Sim há muitas coisas que podem ser criadas, mas as pessoas
+em sua maioria ignoram essa possibilidade.
+`,
+COMUNITY_ANSWER_8_6: `
+Sim, principalmente em famílias rurais onde esse tipo de
+preocupação (reciclagem e reutilização) é maior.
+`,
+COMUNITY_QUESTION_9: `Quais palavras vêm à sua mente quando você ouve a expressão “economia verde” ou
+“empreendedorismo sustentável”?
+`,
+COMUNITY_ANSWER_9_1: `Reaproveitar`,
+COMUNITY_ANSWER_9_2: `Produtos sem agrotóxicos, produtos familiares`,
+COMUNITY_ANSWER_9_3: `Economia verde me lembra dinheiro vindo da agricultura`,
+COMUNITY_ANSWER_9_4: `Agronegócio`,
+COMUNITY_ANSWER_9_5: `Menos consumo de material descartável.`,
+COMUNITY_ANSWER_9_6: `Proteção à natureza`,
+COMUNITY_ANSWER_9_7: `Saúde`,
+COMUNITY_ANSWER_9_8: `5 rs (reutilizar, reciclar, reduzir, repensar, recusar) e
+desenvolvimento com responsabilidade ambiental`,
+COMUNITY_ANSWER_9_9: `Utilização de materiais naturais que seriam descartados.`,
+COMUNITY_ANSWER_9_10: `Cuidados da natureza`,
+COMUNITY_ANSWER_9_11: `Dinheiro através da agricultura ou de um meio menos poluente`,
+COMUNITY_ANSWER_9_12: `Longevidade`,
+COMUNITY_ANSWER_9_13: `Aproveitar as plantas no todo.`,
+COMUNITY_ANSWER_9_14: `Preservação do meio ambiente ,e bem estar social`,
+COMUNITY_ANSWER_9_15: `Sustentabilidade e reaproveitamento`,
+COMUNITY_QUESTION_10: ` Na sua opinião, a escola deve incentivar projetos ligados à sustentabilidade e à valorização do campo?`,
+COMUNITY_ANSWER_10_1: `100% dos entrevistados responderam "Sim"`,
+
+
 };

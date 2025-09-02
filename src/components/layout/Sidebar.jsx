@@ -7,6 +7,7 @@ export const Sidebar = ({onClick, height}) => {
     const pages = [
         { title: 'Home', path: '/' },
         { title: 'Artesanato', path: '/art' },
+        { title: 'Entrevistas', path: '/interviews' },
         { title: 'Receitas', path: '/recepy' },
         { title: 'Resumo Científico', path: '/summary' },
         { title: 'Sobre nós', path: '/about-us' },

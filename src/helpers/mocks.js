@@ -331,7 +331,7 @@ export const artisains = [
 ]
 
 export const interpreters = [
-    
+
 ]
 
 export const developers = [
@@ -356,6 +356,180 @@ export const contact = {
     adress: ['R. Dr. Getúlio Vargas, 1545 - Bela Vista, Ibirama - SC, 89140-000 '],
     phone: ['(47) 3357-8974']
 }
+
+export const farmers_entreviews = [
+    {
+        question: displayMessage("FARMER_QUESTION_1"),
+        answers: [displayMessage("FARMER_ANSWER_1_1")]
+    },
+    {
+        question: displayMessage("FARMER_QUESTION_2"),
+        answers: [displayMessage("FARMER_ANSWER_2_1"),
+            displayMessage("FARMER_ANSWER_2_2")]
+    },
+    {
+        question: displayMessage("FARMER_QUESTION_3"),
+        answers: [displayMessage("FARMER_ANSWER_3_1")]
+    },
+    {
+        question: displayMessage("FARMER_QUESTION_4"),
+        answers: [displayMessage("FARMER_ANSWER_4_1")]
+    },
+    {
+        question: displayMessage("FARMER_QUESTION_5"),
+        answers: [displayMessage("FARMER_ANSWER_5_1")]
+    },
+]
+
+export const artisains_entreviews = [
+    {
+        question: displayMessage("ARTISANS_QUESTION_1"),
+        answers: [
+            displayMessage("ARTISANS_ANSWER_1_1"),
+            displayMessage("ARTISANS_ANSWER_1_2"),
+            displayMessage("ARTISANS_ANSWER_1_3"),
+        ]
+    },
+    {
+        question: displayMessage("ARTISANS_QUESTION_2"),
+        answers: [displayMessage("ARTISANS_ANSWER_2_1"), displayMessage("ARTISANS_ANSWER_2_2")]
+    },
+    {
+        question: displayMessage("ARTISANS_QUESTION_3"),
+        answers: [
+            displayMessage("ARTISANS_ANSWER_3_1"),
+            displayMessage("ARTISANS_ANSWER_3_2"),
+            displayMessage("ARTISANS_ANSWER_3_3"),
+        ]
+    },
+    {
+        question: displayMessage("ARTISANS_QUESTION_4"),
+        answers: [
+            displayMessage("ARTISANS_ANSWER_4_1"),
+            displayMessage("ARTISANS_ANSWER_4_2"),
+            displayMessage("ARTISANS_ANSWER_4_3"),
+            displayMessage("ARTISANS_ANSWER_4_4"),
+            displayMessage("ARTISANS_ANSWER_4_5"),
+        ]
+    },
+    {
+        question: displayMessage("ARTISANS_QUESTION_5"),
+        answers: [
+            displayMessage("ARTISANS_ANSWER_5_1"),
+            displayMessage("ARTISANS_ANSWER_5_2"),
+            displayMessage("ARTISANS_ANSWER_5_3"),
+        ]
+    },
+]
+
+export const comunity_entreviews = [
+    {
+        question: displayMessage("COMUNITY_QUESTION_1"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_1_1"),
+            displayMessage("COMUNITY_ANSWER_1_2"),
+            displayMessage("COMUNITY_ANSWER_1_3"),
+            displayMessage("COMUNITY_ANSWER_1_4"),
+            displayMessage("COMUNITY_ANSWER_1_5"),
+            displayMessage("COMUNITY_ANSWER_1_6"),
+            displayMessage("COMUNITY_ANSWER_1_7"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_2"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_2_1"),
+            displayMessage("COMUNITY_ANSWER_2_2"),
+            displayMessage("COMUNITY_ANSWER_2_3"),
+            displayMessage("COMUNITY_ANSWER_2_4"),
+            displayMessage("COMUNITY_ANSWER_2_5"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_3"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_3_1"),
+            displayMessage("COMUNITY_ANSWER_3_2"),
+            displayMessage("COMUNITY_ANSWER_3_3"),
+            displayMessage("COMUNITY_ANSWER_3_4"),
+            displayMessage("COMUNITY_ANSWER_3_5"),
+            displayMessage("COMUNITY_ANSWER_3_6"),
+            displayMessage("COMUNITY_ANSWER_3_7"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_4"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_4_1"),
+            displayMessage("COMUNITY_ANSWER_4_2"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_5"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_5_1"),
+            displayMessage("COMUNITY_ANSWER_5_2"),
+            displayMessage("COMUNITY_ANSWER_5_3"),
+            displayMessage("COMUNITY_ANSWER_5_4"),
+            displayMessage("COMUNITY_ANSWER_5_5"),
+            displayMessage("COMUNITY_ANSWER_5_6"),
+            displayMessage("COMUNITY_ANSWER_5_7"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_6"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_6_1"),
+            displayMessage("COMUNITY_ANSWER_6_2"),
+            displayMessage("COMUNITY_ANSWER_6_3"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_7"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_7_1"),
+            displayMessage("COMUNITY_ANSWER_7_2"),
+            displayMessage("COMUNITY_ANSWER_7_3"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_8"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_8_1"),
+            displayMessage("COMUNITY_ANSWER_8_2"),
+            displayMessage("COMUNITY_ANSWER_8_3"),
+            displayMessage("COMUNITY_ANSWER_8_4"),
+            displayMessage("COMUNITY_ANSWER_8_5"),
+            displayMessage("COMUNITY_ANSWER_8_6"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_9"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_9_1"),
+            displayMessage("COMUNITY_ANSWER_9_2"),
+            displayMessage("COMUNITY_ANSWER_9_3"),
+            displayMessage("COMUNITY_ANSWER_9_4"),
+            displayMessage("COMUNITY_ANSWER_9_5"),
+            displayMessage("COMUNITY_ANSWER_9_6"),
+            displayMessage("COMUNITY_ANSWER_9_7"),
+            displayMessage("COMUNITY_ANSWER_9_8"),
+            displayMessage("COMUNITY_ANSWER_9_9"),
+            displayMessage("COMUNITY_ANSWER_9_10"),
+            displayMessage("COMUNITY_ANSWER_9_11"),
+            displayMessage("COMUNITY_ANSWER_9_12"),
+            displayMessage("COMUNITY_ANSWER_9_13"),
+            displayMessage("COMUNITY_ANSWER_9_14"),
+            displayMessage("COMUNITY_ANSWER_9_15"),
+        ]
+    },
+    {
+        question: displayMessage("COMUNITY_QUESTION_10"),
+        answers: [
+            displayMessage("COMUNITY_ANSWER_10_1"),
+        ]
+    },
+]
 
 
 

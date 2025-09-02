@@ -12,6 +12,7 @@ import { ContextProvider } from "./context/ContextProvider";
 import { Recepies } from "./screens/recepies/Recepies";
 import { AboutUs } from "./screens/aboutUs/AboutUs";
 import { Summary } from "./screens/summary/Summary";
+import { Interviews } from "./screens/enterviews/Interviews";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="recepy" element={<Recepies />} />
             <Route path="about-us" element={<AboutUs />} />
             <Route path="summary" element={<Summary />} />
+            <Route path="interviews" element={<Interviews />} />
           </Routes>
         </Layout>
       </BrowserRouter>
