@@ -410,7 +410,6 @@ export const artisains_entreviews = [
             displayMessage("ARTISANS_ANSWER_4_2"),
             displayMessage("ARTISANS_ANSWER_4_3"),
             displayMessage("ARTISANS_ANSWER_4_4"),
-            displayMessage("ARTISANS_ANSWER_4_5"),
         ]
     },
     {
@@ -429,11 +428,6 @@ export const comunity_entreviews = [
         answers: [
             displayMessage("COMUNITY_ANSWER_1_1"),
             displayMessage("COMUNITY_ANSWER_1_2"),
-            displayMessage("COMUNITY_ANSWER_1_3"),
-            displayMessage("COMUNITY_ANSWER_1_4"),
-            displayMessage("COMUNITY_ANSWER_1_5"),
-            displayMessage("COMUNITY_ANSWER_1_6"),
-            displayMessage("COMUNITY_ANSWER_1_7"),
         ]
     },
     {
@@ -470,11 +464,6 @@ export const comunity_entreviews = [
         answers: [
             displayMessage("COMUNITY_ANSWER_5_1"),
             displayMessage("COMUNITY_ANSWER_5_2"),
-            displayMessage("COMUNITY_ANSWER_5_3"),
-            displayMessage("COMUNITY_ANSWER_5_4"),
-            displayMessage("COMUNITY_ANSWER_5_5"),
-            displayMessage("COMUNITY_ANSWER_5_6"),
-            displayMessage("COMUNITY_ANSWER_5_7"),
         ]
     },
     {
