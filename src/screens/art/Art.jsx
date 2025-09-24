@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { Carousel } from "antd";
+import { Carousel, Spin } from "antd";
 
 import { ArtCard } from "./components/ArtCard";
 import { Context } from "../../context/Context";
@@ -11,6 +11,8 @@ export const Art = () => {
   const { mobile_mode } = useContext(Context)
   const [artGroupedData, setArtGroupedData] = useState([])
   const [stepsGroupedData, setStepsGroupedData] = useState([])
+  const [loadingImages, setLoadingImages] = useState(true)
+
   const groupData = () => {
     const groupedData = []
     const groupedDataSteps = []
@@ -23,12 +25,17 @@ export const Art = () => {
     }
     setArtGroupedData(groupedData)
     setStepsGroupedData(groupedDataSteps)
-    
+
   }
 
   useEffect(() => {
     groupData()
   }, [])
+
+  useEffect(() => {
+    const images = [artGroupedData, stepsGroupedData]
+    setLoadingImages(!images.every(group => group.length))
+  }, [artGroupedData, stepsGroupedData])
   return (
     <div className="flex flex-col gap-5">
       <p>{displayMessage("ART_OPENING_TEXT")}</p>
@@ -36,7 +43,9 @@ export const Art = () => {
         {displayMessage("CREATED_PRODUCTS")}
       </b>
 
-      <Carousel arrows={true} infinite>
+      {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
+        <Spin/>
+      </div> : <Carousel arrows={true} infinite>
         {
           artGroupedData.map((group, index) => (
             <div key={index}>
@@ -50,11 +59,17 @@ export const Art = () => {
             </div>
           ))
         }
-      </Carousel>
+      </Carousel>}
+
+
       <b className="text-center text-primary-200">
         {displayMessage("ART_PROCESS")}
       </b>
-      <Carousel arrows={true} infinite>
+
+
+      {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
+        <Spin />
+      </div> : <Carousel arrows={true} infinite>
         {
           stepsGroupedData.map((group, index) => (
             <div key={index}>
@@ -66,7 +81,8 @@ export const Art = () => {
             </div>
           ))
         }
-      </Carousel>
+      </Carousel>}
+
 
       <p>{displayMessage("CALL_TO_ACTION_ART_MESSAGE")}</p>
     </div>
