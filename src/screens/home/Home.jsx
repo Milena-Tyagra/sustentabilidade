@@ -15,7 +15,7 @@ export const Home = () => {
           <img src={banner} style={{ width: mobile_mode ? "90vw" : "40vw" }} />
         </div>
         <div className="w-full flex justify-center" >
-          <span style={{ width: mobile_mode ? "90vw" : "40vw" }} className="text-end text-sm">{displayMessage("ILUSTRATIVE")}</span>
+          <span style={{ width: mobile_mode ? "90vw" : "40vw" }} className={`text-end ${mobile_mode ? 'text-[8px]' : 'text-sm'}`}>{displayMessage("ILUSTRATIVE")}</span>
         </div>
       </div>
       <p>{displayMessage("HOME_DEVELOPED_BY")}</p>
