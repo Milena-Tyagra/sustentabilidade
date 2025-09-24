@@ -4,7 +4,7 @@ export const messages = {
 
   // home
   HOME_DEVELOPED_BY: `
-  Desenvolvido pelos alunos do **9º ano da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto contou com a orientação da professora **Mariléia Mallmann**.
+  Desenvolvido pelos alunos do **9º ano da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto foi desenvolvido com a orientação da professora **Mariléia Mallmann**.
   `,
   HOME_OBJECTIVES: `
   O projeto teve como propósito **investigar o potencial do pseudocaule da bananeira, geralmente descartado após a colheita, como matéria-prima sustentável e fonte de geração de renda no meio rural**. A fibra pode se transformar em papel artesanal, acessórios, tijolos ecológicos, objetos de decoração e muito mais.
@@ -13,9 +13,10 @@ export const messages = {
   Aqui você vai conhecer experiências, produtos e histórias que mostram como a criatividade e a ciência podem transformar resíduos agrícolas em oportunidades reais para a comunidade.
   `,
   HOME_CALL_TO_ACTION_MESSAGE: `Explore nossas fotos, vídeos, receitas e entrevistas e descubra como a fibra de bananeira inspira um futuro mais verde e inovador.`,
+  ILUSTRATIVE: 'imagem ilustrativa',
 
   // art
-  ART_OPENING_TEXT: ` O reaproveitamento do pseudocaule da bananeira permitiu transformar um resíduo agrícola em peças criativas, funcionais e ecológicas. Cada produto carrega ciência,
+  ART_OPENING_TEXT: ` O reaproveitamento do pseudocaule da bananeira permitiu transformar um descarte agrícola em peças criativas, funcionais e ecológicas. Cada produto carrega ciência,
         tradição e inovação, valorizando os saberes populares e incentivando o protagonismo estudantil.`,
   CREATED_PRODUCTS: 'Produtos Criados',
   ART_TITLE_1: 'Papel artesanal',
@@ -135,7 +136,7 @@ export const messages = {
 
   ART_PRODUCT_6_INFO: 'O **palmito da bananeira** é uma preparação alimentar feita a partir do miolo do pseudocaule da bananeira ou seja, da parte interna e mais macia do tronco (que na verdade é um caule falso). Ele é bastante nutritivo, rico em fibras e pode ser usado como alternativa ao palmito tradicional.',
 
-  ART_PRODUCT_6_MATERIAL_1: '1 miolo de bananeira (parte interna e branca do pseudocaule)',
+  ART_PRODUCT_6_MATERIAL_1: '1 palmito de bananeira (parte interna e branca do pseudocaule)',
   ART_PRODUCT_6_MATERIAL_2: 'Água',
   ART_PRODUCT_6_MATERIAL_3: 'Suco de 2 limões ou 100 ml de vinagre branco (para evitar oxidação)',
   ART_PRODUCT_6_MATERIAL_4: 'Sal a gosto',
@@ -289,7 +290,7 @@ COMUNITY_ANSWER_3_1: '46,7% dos entrevistados responderam "Sim"',
 COMUNITY_ANSWER_3_2: '53,3% dos entrevistados responderam "Não"',
 COMUNITY_ANSWER_3_3: 'Artesanato e alimento para animais.',
 COMUNITY_ANSWER_3_4: 'Cobertura de casa.',
-COMUNITY_ANSWER_3_5: 'Cordas e o palmito da banana.',
+COMUNITY_ANSWER_3_5: 'Cordas e o palmito da bananeira.',
 COMUNITY_ANSWER_3_6: 'Chá e adubo.',
 COMUNITY_ANSWER_3_7: 'Folhas para barracas, o coração da bananeira para a alimentação.',
 COMUNITY_QUESTION_4: `Você considera a bananeira uma planta importante para a agricultura familiar?`,
