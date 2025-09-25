@@ -539,7 +539,7 @@ export const videos = [
     },
     {
         title: displayMessage("PALM"),
-        media: 'video_conserva',
+        media: 'https://www.youtube.com/embed/uOUv9dKID-Y?si=KWgjfJxZk-JBuNjK',
         horizontal: false
     },
     {
