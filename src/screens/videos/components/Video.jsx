@@ -13,12 +13,6 @@ export const Video = ({ video }) => {
         {(!video || !loaded) && <div className="w-full min-h-[200px] h-full flex items-center justify-center">
             <Spin />
         </div>}
-         <video width={video.horizontal ? videosWidth : null} onLoadedData={() => setLoaded(true)} controls style={{
-            display: loaded ? 'block' : 'none' 
-         }}>
-            <source src={video.media} type="video/mp4" />
-            {/* <source src="movie.ogg" type="video/ogg" /> */}
-            Your browser does not support the video tag.
-        </video>
+        <iframe src="https://youtu.be/APAbZ_e9cqM" title="W3Schools Free Online Web Tutorials"></iframe>
     </div>
 }
