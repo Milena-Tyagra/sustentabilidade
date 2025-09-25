@@ -13,6 +13,6 @@ export const Video = ({ video }) => {
         {(!video || !loaded) && <div className="w-full min-h-[200px] h-full flex items-center justify-center">
             <Spin />
         </div>}
-        <iframe src="https://youtu.be/APAbZ_e9cqM" title="W3Schools Free Online Web Tutorials"></iframe>
+        <iframe src="https://www.youtube.com/watch?v=uOUv9dKID-Y" title="W3Schools Free Online Web Tutorials"></iframe>
     </div>
 }
