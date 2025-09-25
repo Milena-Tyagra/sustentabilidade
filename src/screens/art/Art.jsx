@@ -6,6 +6,7 @@ import { Context } from "../../context/Context";
 import { displayMessage } from "../../components/messages/Message";
 
 import { arts, artSteps } from "../../helpers/mocks";
+import { Separator } from "../../components/separator/Separator";
 
 export const Art = () => {
   const { mobile_mode } = useContext(Context)
@@ -39,12 +40,10 @@ export const Art = () => {
   return (
     <div className="flex flex-col gap-5">
       <p>{displayMessage("ART_OPENING_TEXT")}</p>
-      <b className="text-center text-primary-200">
-        {displayMessage("CREATED_PRODUCTS")}
-      </b>
+      <Separator title={displayMessage("CREATED_PRODUCTS")} />
 
       {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
-        <Spin/>
+        <Spin />
       </div> : <Carousel arrows={true} infinite>
         {
           artGroupedData.map((group, index) => (
@@ -60,12 +59,7 @@ export const Art = () => {
           ))
         }
       </Carousel>}
-
-
-      <b className="text-center text-primary-200">
-        {displayMessage("ART_PROCESS")}
-      </b>
-
+      <Separator title={displayMessage("ART_PROCESS")} />
 
       {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
         <Spin />
