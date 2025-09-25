@@ -1,16 +1,15 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Carousel, Spin } from "antd";
 
-import { Context } from "../../context/Context";
 import { displayMessage } from "../../components/messages/Message";
+import { Photo } from "./components/Photo";
+import { Separator } from "../../components/separator/Separator";
 const feira_images = import.meta.glob('../../assets/feiras/*.{png,jpg,jpeg,svg}', { eager: true });
 const products_images = import.meta.glob('../../assets/products/*.{png,jpg,jpeg,svg}', { eager: true });
 const process_images = import.meta.glob('../../assets/process/*.{png,jpg,jpeg,svg}', { eager: true });
 
 
 export const Gallery = () => {
-  console.log(feira_images)
-  const { mobile_mode } = useContext(Context)
   const [feiraGroupedData, setFeiraGroupedData] = useState([])
   const [productsGroupedData, setProductsGroupedData] = useState([])
   const [processGroupedData, setProcessGroupedData] = useState([])
@@ -46,9 +45,7 @@ export const Gallery = () => {
   }, [feiraGroupedData, productsGroupedData, processGroupedData])
   return (
     <div className="flex flex-col gap-5">
-      <b className="text-center text-primary-200">
-        {displayMessage("EXPOSITIONS")}
-      </b>
+      <Separator title={displayMessage("EXPOSITIONS")} />
 
       {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
         <Spin />
@@ -56,17 +53,14 @@ export const Gallery = () => {
         {
           feiraGroupedData.map((group, index) => (
             <div key={index}>
-              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <img key={i} src={img.default} alt={`img-${i}`} style={{ width: mobile_mode ? '90vw' : '30vw' }} />)}</div>
+              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <Photo key={i} img={img} />)}</div>
             </div>
           ))
         }
       </Carousel>}
 
+      <Separator title={displayMessage("CREATED_PRODUCTS")} />
 
-
-      <b className="text-center text-primary-200">
-        {displayMessage("CREATED_PRODUCTS")}
-      </b>
 
       {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
         <Spin />
@@ -74,16 +68,13 @@ export const Gallery = () => {
         {
           productsGroupedData.map((group, index) => (
             <div key={index}>
-              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <img key={i} src={img.default} alt={`img-${i}`} style={{ width: mobile_mode ? '90vw' : '30vw' }} />)}</div>
+              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <Photo key={i} img={img} />)}</div>
             </div>
           ))
         }
       </Carousel>}
 
-
-      <b className="text-center text-primary-200">
-        {displayMessage("STUDENTS_AND_PROCESSES")}
-      </b>
+      <Separator title={displayMessage("STUDENTS_AND_PROCESSES")} />
 
       {loadingImages ? <div className="w-full min-h-[200px] h-full flex items-center justify-center">
         <Spin />
@@ -91,7 +82,7 @@ export const Gallery = () => {
         {
           processGroupedData.map((group, index) => (
             <div key={index}>
-              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <img key={i} src={img.default} alt={`img-${i}`} style={{ width: mobile_mode ? '90vw' : '30vw' }} />)}</div>
+              <div className="flex justify-center items-center w-full h-[50vh]">{group.map((img, i) => <Photo key={i} img={img} />)}</div>
             </div>
           ))
         }

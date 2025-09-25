@@ -13,8 +13,8 @@ import { Recepies } from "./screens/recepies/Recepies";
 import { AboutUs } from "./screens/aboutUs/AboutUs";
 import { Summary } from "./screens/summary/Summary";
 import { Interviews } from "./screens/enterviews/Interviews";
-import { Gallery } from "./components/gallery/Galley";
 import { Videos } from "./screens/videos/Videos";
+import { Gallery } from "./screens/gallery/Gallery";
 
 function App() {
   return (
