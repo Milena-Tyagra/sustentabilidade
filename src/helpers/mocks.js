@@ -11,6 +11,8 @@ import separacao from '../assets/separacao.jpeg'
 import secagem from '../assets/secagem.jpeg'
 import imercao from '../assets/imercao.jpeg'
 
+import video from '../assets/videos/teste.mp4'
+
 import { displayMessage } from "../components/messages/Message";
 
 
@@ -520,6 +522,34 @@ export const comunity_entreviews = [
         ]
     },
 ]
+
+export const videos = [
+    {
+        title: displayMessage("EXTRACTION"),
+        media: video,
+        horizontal: false
+    },
+    {
+        title: displayMessage("ART_TITLE_1"),
+        media: video,
+        horizontal: false
+    },
+    {
+        title: displayMessage("BRICK"),
+        media: video,
+        horizontal: false
+    },
+    {
+        title: displayMessage("PALM"),
+        media: video,
+        horizontal: false
+    },
+    {
+        title: displayMessage("SYRUP"),
+        media: video,
+        horizontal: false
+    },
+];
 
 
 
