@@ -14,6 +14,7 @@ import { AboutUs } from "./screens/aboutUs/AboutUs";
 import { Summary } from "./screens/summary/Summary";
 import { Interviews } from "./screens/enterviews/Interviews";
 import { Gallery } from "./components/gallery/Galley";
+import { Videos } from "./screens/videos/Videos";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="summary" element={<Summary />} />
             <Route path="interviews" element={<Interviews />} />
             <Route path="gallery" element={<Gallery />} />
+            <Route path="videos" element={<Videos />} />
           </Routes>
         </Layout>
       </BrowserRouter>

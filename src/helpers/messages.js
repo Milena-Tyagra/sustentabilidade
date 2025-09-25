@@ -356,7 +356,11 @@ COMUNITY_QUESTION_10: ` Na sua opinião, a escola deve incentivar projetos ligad
 COMUNITY_ANSWER_10_1: `100% dos entrevistados responderam "Sim"`,
 
 EXPOSITIONS: 'Exposições',
-STUDENTS_AND_PROCESSES: 'Processos e práticas'
+STUDENTS_AND_PROCESSES: 'Processos e práticas',
 
-
+//videos
+EXTRACTION: 'Extração da fibra da bananeira',
+BRICK: 'Tijolo ecológico',
+PALM: 'Palmito da bananeira',
+SYRUP: 'Xarope'
 };

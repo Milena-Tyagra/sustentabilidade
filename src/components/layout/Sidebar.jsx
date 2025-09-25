@@ -11,6 +11,7 @@ export const Sidebar = ({onClick, height}) => {
         { title: 'Galeria', path: '/gallery' },
         { title: 'Receitas', path: '/recepy' },
         { title: 'Resumo Científico', path: '/summary' },
+        { title: 'Videos', path: '/videos' },
         { title: 'Sobre nós', path: '/about-us' },
     ]
     return (
