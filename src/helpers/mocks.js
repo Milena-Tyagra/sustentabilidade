@@ -524,30 +524,22 @@ export const comunity_entreviews = [
 export const videos = [
     {
         title: displayMessage("EXTRACTION"),
-        media: 'video_extracao',
-        horizontal: false
+        media: 'https://www.youtube.com/embed/sp-SQ2VoKvo?si=oVPrYWV9qdATgpX1',
     },
     {
         title: displayMessage("ART_TITLE_1"),
-        media: 'video_papel',
-        horizontal: false
+        media: 'https://www.youtube.com/embed/BCZuN6eQWD8?si=mGi-BswDQGBMLHC_',
     },
     {
         title: displayMessage("BRICK"),
-        media: 'video_tijolo',
-        horizontal: false
+        media: 'https://www.youtube.com/embed/O-dAaPr6M8o?si=OwJ2RXZM8bPa1f5r',
     },
     {
         title: displayMessage("PALM"),
         media: 'https://www.youtube.com/embed/uOUv9dKID-Y?si=KWgjfJxZk-JBuNjK',
-        horizontal: false
     },
     {
         title: displayMessage("SYRUP"),
-        media: 'video_xarope',
-        horizontal: false
+        media: 'https://www.youtube.com/embed/trCvnzb6gg0?si=fR-K3FjBS0qfNYSe',
     },
 ];
-
-
-
