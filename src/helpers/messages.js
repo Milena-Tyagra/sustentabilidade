@@ -4,7 +4,7 @@ export const messages = {
 
   // home
   HOME_DEVELOPED_BY: `
-  Desenvolvido pelos alunos do **9º ano da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto foi desenvolvido com a orientação da professora **Mariléia Mallmann**.
+  Desenvolvido pelos alunos do **9º ano da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto foi orientado pela professora **Mariléia Mallmann**.
   `,
   HOME_OBJECTIVES: `
   O projeto teve como propósito **investigar o potencial do pseudocaule da bananeira, geralmente descartado após a colheita, como matéria-prima sustentável e fonte de geração de renda no meio rural**. A fibra pode se transformar em papel artesanal, acessórios, tijolos ecológicos, objetos de decoração e muito mais.
