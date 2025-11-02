@@ -4,7 +4,7 @@ export const messages = {
 
   // home
   HOME_DEVELOPED_BY: `
-  Desenvolvido pelos alunos do **9º ano da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto foi orientado pela professora **Mariléia Mallmann**.
+  Desenvolvido pelos alunos do **9º ano 4 da Escola de Educação Básica Eliseu Guilherme**, na disciplina de **Ciências**, dentro do tema **Sustentabilidade**, o projeto foi orientado pela professora **Mariléia Mallmann**.
   `,
   HOME_OBJECTIVES: `
   O projeto teve como propósito **investigar o potencial do pseudocaule da bananeira, geralmente descartado após a colheita, como matéria-prima sustentável e fonte de geração de renda no meio rural**. A fibra pode se transformar em papel artesanal, acessórios, tijolos ecológicos, objetos de decoração e muito mais.
@@ -167,6 +167,13 @@ export const messages = {
   9° ano, turma 4, na disciplina de Ciências, com foco no tema sustentabilidade, sob orientação da
   professora Mariléia Mallmann.
   `,
+  OUR_INSPIRATION: 'Referências que nos Inspiraram',
+  OUR_INSPIRATION_INFO: `
+    Nosso projeto “Fibra de Bananeira: Inovação Sustentável a Partir do Campo” foi inspirado em pesquisas da
+    Embrapa e em projetos do SENAI, como o Banana Têxtil. Essas iniciativas nos mostraram como a fibra da 
+    bananeira pode ser reaproveitada de forma sustentável. A partir dessas referências, adaptamos ideias e 
+    técnicas para nossa realidade escolar, promovendo aprendizado e consciência ambiental.
+  `,
   MANAGER: 'Gestor',
   ADVISOR: 'Assessora',
   GUIDING_TEACHER: 'Professora Orientadora',
@@ -175,7 +182,7 @@ export const messages = {
   FARMERS: 'Agricultores',
   ARTISANS: 'Artesãos',
   COMUNITY: 'Comunidade escolar',
-  INTERPRETER: 'Intérprete de Libras dos vídeos',
+  INTERPRETER: 'Tradução e sinalização em libras',
   DEVELOPER: 'Desenvolvedora da página',
   INVOLVED: 'Pessoas envolvidas no projeto',
   ACKNOWLEDMENTS: 'Agradecimentos',
@@ -186,7 +193,7 @@ export const messages = {
   ACKNOWLEDMENTS_5: 'Ao Gestor, à Assessora Escolar e à equipe pedagógica, pelo apoio constante e pela confiança depositada em nossa iniciativa.',
   ACKNOWLEDMENTS_6: 'Agradecemos à Comunidade Escolar, pelo envolvimento e acolhimento da proposta.',
   ACKNOWLEDMENTS_7: 'Aos Agricultores e Artesãos, pela disponibilidade em compartilhar suas experiências, saberes e práticas, enriquecendo nossa visão sobre a sustentabilidade.',
-  ACKNOWLEDMENTS_8: 'Ao intérprete de Libras dos vídeos, por tornar o conhecimento acessível, contribuindo para a inclusão e para o alcance de mais pessoas.',
+  ACKNOWLEDMENTS_8: 'Agradecimento especial à professora Graciela Elys Ancini, responsável pela tradução e sinalização em Libras, tornando este trabalho acessível e inclusivo.',
   ACKNOWLEDMENTS_9: 'À Desenvolvedora da página, pelo cuidado e dedicação em dar visibilidade ao nosso trabalho, tornando-o acessível a toda a comunidade.',
   ACKNOWLEDMENTS_10: 'A todos que, de forma direta ou indireta, contribuíram para a concretização desta iniciativa, deixamos aqui nossa sincera gratidão.',
 

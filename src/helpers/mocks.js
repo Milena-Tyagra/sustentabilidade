@@ -281,9 +281,9 @@ export const teachers = [
 ]
 
 export const students = [
+    'Beatriz Borges Dos Santos',
     'Alessandra Alves',
     'Ana Carolina Da Rocha Barbosa',
-    'Beatriz Borges Dos Santos',
     'Eduarda Alves',
     'Eloá Elias Da Cruz',
     'Ester De Andrade França Da Rocha',

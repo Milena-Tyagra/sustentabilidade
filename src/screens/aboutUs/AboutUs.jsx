@@ -17,6 +17,10 @@ export const AboutUs = () => {
             </div>
 
             <p>{displayMessage("ABOUT_US_INFO")}</p>
+            
+            <Separator title={displayMessage("OUR_INSPIRATION")} />
+            <p>{displayMessage("OUR_INSPIRATION_INFO")}</p>
+            
             <Separator title={displayMessage("INVOLVED")} />
 
 
