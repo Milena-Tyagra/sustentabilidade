@@ -10,6 +10,6 @@ export const Video = ({ video }) => {
     const videosHeight = windowHeight * (mobile_mode ? 0.4 : 0.5)
     return <div className="w-full">
         <Separator title={video.title} />
-        <iframe width={videosWidth} height={videosHeight} src={video.media} title={`Vídeo ${video.title}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe  allowfullscreen allowFullScreen width={videosWidth} height={videosHeight} src={video.media} title={`Vídeo ${video.title}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; full-screen" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
     </div>
 }

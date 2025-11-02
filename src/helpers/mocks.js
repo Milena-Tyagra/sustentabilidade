@@ -332,7 +332,7 @@ export const artisains = [
 ]
 
 export const interpreters = [
-
+    'Graciela Elys Ancini'
 ]
 
 export const developers = [
@@ -521,25 +521,28 @@ export const comunity_entreviews = [
     },
 ]
 
+const youtube_prefix = 'https://www.youtube-nocookie.com/embed/'
+const youtube_sufix = '&rel=0&modestbranding=1&showinfo=0&controls=1&fs=1&cc_load_policy=0'
+
 export const videos = [
     {
         title: displayMessage("EXTRACTION"),
-        media: 'https://www.youtube.com/embed/sp-SQ2VoKvo?si=oVPrYWV9qdATgpX1',
+        media: `${youtube_prefix}PVB8O6AY58Q?si=DXoRAWNPBf6hCJjq${youtube_sufix}`,
     },
     {
         title: displayMessage("ART_TITLE_1"),
-        media: 'https://www.youtube.com/embed/BCZuN6eQWD8?si=mGi-BswDQGBMLHC_',
+        media: `${youtube_prefix}1-U-Yib7OAw?si=e22Ye59qrxioC2b3${youtube_sufix}`,
     },
     {
         title: displayMessage("BRICK"),
-        media: 'https://www.youtube.com/embed/O-dAaPr6M8o?si=OwJ2RXZM8bPa1f5r',
+        media: `${youtube_prefix}E0N1uT35Ukw?si=7XOAFezs54iwKPx2${youtube_sufix}`,
     },
     {
         title: displayMessage("PALM"),
-        media: 'https://www.youtube.com/embed/uOUv9dKID-Y?si=KWgjfJxZk-JBuNjK',
+        media: `${youtube_prefix}DOT9-sdl5r8?si=ipJIBD_eOJDtZbz2${youtube_sufix}`,
     },
     {
         title: displayMessage("SYRUP"),
-        media: 'https://www.youtube.com/embed/trCvnzb6gg0?si=fR-K3FjBS0qfNYSe',
+        media: `${youtube_prefix}B52ucLF6SPk?si=478Kp0OLOkoWkA9F${youtube_sufix}`,
     },
 ];
