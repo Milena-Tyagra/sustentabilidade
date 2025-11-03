@@ -169,7 +169,7 @@ export const messages = {
   `,
   OUR_INSPIRATION: 'Referências que nos Inspiraram',
   OUR_INSPIRATION_INFO: `
-    Nosso projeto “Fibra de Bananeira: Inovação Sustentável a Partir do Campo” foi inspirado em pesquisas da
+  Nosso projeto “Fibra de Bananeira: Inovação Sustentável a Partir do Campo” foi inspirado em pesquisas da
     Embrapa e em projetos do SENAI, como o Banana Têxtil. Essas iniciativas nos mostraram como a fibra da 
     bananeira pode ser reaproveitada de forma sustentável. A partir dessas referências, adaptamos ideias e 
     técnicas para nossa realidade escolar, promovendo aprendizado e consciência ambiental.

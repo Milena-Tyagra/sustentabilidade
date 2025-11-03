@@ -281,7 +281,6 @@ export const teachers = [
 ]
 
 export const students = [
-    'Beatriz Borges Dos Santos',
     'Alessandra Alves',
     'Ana Carolina Da Rocha Barbosa',
     'Eduarda Alves',
@@ -310,6 +309,7 @@ export const students = [
 ]
 
 export const exhibitors = [
+    'Beatriz Borges Dos Santos',
     'Natasha Trombotto Elias',
     'Victor Cristiano Cavichiolli'
 ]
